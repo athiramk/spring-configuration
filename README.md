@@ -1,6 +1,8 @@
-## Spring Boot Configuration Demo
+# Spring Boot Configuration Demo
 This repository is a hands-on exploration of Spring Boot's externalized configuration and conditional bean management. I built this to learn how to use @Value, @ConditionalOnProperty, and @Profile to create adaptable applications.
-## 🚀 Key Features## 1. Externalized Configuration with @Value
+## 🚀 Key Features
+
+## 1. Externalized Configuration with @Value
 I used @Value to inject settings directly from application.properties into my beans.
 
 * Usage: @Value("${app.message:Default Message}")
@@ -41,5 +43,9 @@ You can activate specific profiles in your application using several methods:
 ------------------------------
 
 ## Output Screenshot
+
+### Running with 'dev' profile
+![Dev Profile Output](./screenshots/output_screen.png)
+
 
 
